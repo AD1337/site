@@ -1,1 +1,0 @@
-console.log("Site Developed by: Secretmapper (http://arianv.com)");
