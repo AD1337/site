@@ -332,6 +332,7 @@ figure {
 
 img,
 svg {
+    horizontal-align: middle;
     vertical-align: middle;
 }
 
@@ -647,6 +648,7 @@ progress {
 
 .img-fluid {
     max-width: 100%;
+    width: auto;
     height: auto;
 }
 
@@ -8354,7 +8356,7 @@ fieldset:disabled .btn {
 }
 
 .p-5 {
-    padding: 3rem !important;
+    padding: 1rem !important;
 }
 
 .px-0 {
@@ -8729,7 +8731,12 @@ fieldset:disabled .btn {
 
 .bg-primary {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+
+    /*background-color: #000000 !important
+*/
+    /*background-image: url('../assets/img/bg.jpg')
+*/
+    background-position: right top;
 }
 
 .bg-secondary {
@@ -8859,10 +8866,10 @@ fieldset:disabled .btn {
     border-radius: 0.3rem !important;
 }
 
-.rounded-circle {
+/*.rounded-circle {
     border-radius: 50% !important;
 }
-
+*/
 .rounded-pill {
     border-radius: 50rem !important;
 }
@@ -12250,13 +12257,16 @@ html {
 header.masthead {
     position: relative;
     overflow: hidden;
-    padding-top: calc(7rem + 72px);
+    padding-top: calc(7rem + 22px);
     padding-bottom: 7rem;
-    background-image: url('../assets/img/foto.jpg');
+
+    /*background-color: #c0a5a5
+*/
+    background-image: url('../assets/img/bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
-    background-size: auto;
+    background-size: cover;
 }
 
 header.masthead .masthead-content {
@@ -12308,11 +12318,11 @@ header.masthead .bg-circle-4 {
 }
 
 @media (min-width: 992px) {
-    header.masthead {
-        padding-top: calc(10rem + 105px);
-        padding-bottom: 20rem;
-    }
-
+    /*header.masthead {
+    padding-top: calc(10rem + 105px);
+    padding-bottom: 20rem;
+}
+*/
     header.masthead .masthead-content .masthead-heading {
         font-size: 6rem;
         margin-top: 100;
