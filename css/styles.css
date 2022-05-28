@@ -8039,6 +8039,7 @@ fieldset:disabled .btn {
 
 .align-items-center {
     align-items: center !important;
+    margin-bottom: 0<div class="row gx-5 align-items-center">     <div class="col-lg-6">         <div class="p-5">             <a href="https://store.steampowered.com/app/384550/Painters_Guild/"></a>         </div>     </div>     <div class="col-lg-6">         <div class="p-5">             <h2 class="display-4"></h2>         </div>     </div> </div>;
 }
 
 .align-items-baseline {
