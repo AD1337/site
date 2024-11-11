@@ -34,7 +34,7 @@
     --bs-gray-700: #495057;
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
-    --bs-primary: #ee0979;
+    --bs-primary: #eedf09;
     --bs-secondary: #ff6a00;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
@@ -61,8 +61,8 @@
     --bs-body-font-size: 1rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
-    --bs-body-color: #212529;
-    --bs-body-bg: #fff;
+    --bs-body-color: #9b9997;
+    --bs-body-bg: #1e1e1e;
 }
 
 *,
@@ -268,7 +268,7 @@ sup {
 }
 
 a {
-    color: #ee0979;
+    color: #ffb245;
     text-decoration: underline;
 }
 
@@ -572,7 +572,7 @@ progress {
 }
 
 .display-4 {
-    font-size: calc(1.475rem + 2.7vw);
+    font-size: calc(0.975rem + 2.7vw);
     font-weight: 300;
     line-height: 1.2;
 }
@@ -3943,7 +3943,7 @@ fieldset:disabled .btn {
 
 .btn-link {
     font-weight: 400;
-    color: #ee0979;
+    color: #79d6ef;
     text-decoration: underline;
 }
 
@@ -4486,7 +4486,7 @@ fieldset:disabled .btn {
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
-    color: #ee0979;
+    color: #09eeb9;
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4499,7 +4499,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #be0761;
+    color: #09eeb9;
 }
 
 .nav-link.disabled {
@@ -7338,43 +7338,43 @@ fieldset:disabled .btn {
 }
 
 .link-primary {
-    color: #ee0979;
+    color: #79d6ef;
 }
 
 .link-primary:hover,
 .link-primary:focus {
-    color: #be0761;
+    color: #79d6ef;
 }
 
 .link-secondary {
-    color: #ff6a00;
+    color: #79d6ef;
 }
 
 .link-secondary:hover,
 .link-secondary:focus {
-    color: #ff8833;
+    color: #79d6ef;
 }
 
 .link-success {
-    color: #198754;
+    color: #79d6ef;
 }
 
 .link-success:hover,
 .link-success:focus {
-    color: #146c43;
+    color: #79d6ef;
 }
 
 .link-info {
-    color: #0dcaf0;
+    color: #79d6ef;
 }
 
 .link-info:hover,
 .link-info:focus {
-    color: #3dd5f3;
+    color: #79d6ef;
 }
 
 .link-warning {
-    color: #ffc107;
+    color: #79d6ef;
 }
 
 .link-warning:hover,
@@ -7392,21 +7392,21 @@ fieldset:disabled .btn {
 }
 
 .link-light {
-    color: #f8f9fa;
+    color: #79d6ef;
 }
 
 .link-light:hover,
 .link-light:focus {
-    color: #f9fafb;
+    color: #79d6ef;
 }
 
 .link-dark {
-    color: #212529;
+    color: #79d6ef;
 }
 
 .link-dark:hover,
 .link-dark:focus {
-    color: #1a1e21;
+    color: #79d6ef;
 }
 
 .ratio {
